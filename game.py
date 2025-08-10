@@ -7,7 +7,7 @@ import random
 catcher_color = (1.0, 1.0, 1.0)  # White 
 
 catcher_y = 20          # fixed catcher vertical position
-catcher_speed = 10000.0   # speed of catcher movement
+catcher_speed = 50000.0   # speed of catcher movement
 score = 0
 game_over = False
 paused = False
@@ -351,4 +351,5 @@ glutMouseFunc(mouse_click)
 resetGame()
 initDiamond()
 glutMainLoop()
+
 
